@@ -1,6 +1,6 @@
 function canReplaceJack(M, N) {
   
-    if (M % 2 === 0 || N % 2 === 0) {
+    if (M % 2 === 0 && N % 2 === 0) {
       return 'NO';
     } else {
       return 'YES';
